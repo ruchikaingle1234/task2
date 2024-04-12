@@ -1,0 +1,48 @@
+.about7,
+.help7 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+}
+.help7 {
+  color: transparent;
+}
+.stack17 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+.n{
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .stack17 {
+    flex-direction: column; 
+    align-items: stretch; 
+    text-align: center; 
+    font-size: 14px; 
+    gap: 16px; 
+    margin-right: 100px;
+  }
+  .ml-auto{
+    margin-right: 400px;
+    margin-top: 100px;
+  }
+ 
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .stack17 {
+    font-size: 12px; 
+    gap: 12px; 
+    margin-right: 230px;
+  }
+ 
+}

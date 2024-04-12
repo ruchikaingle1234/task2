@@ -1,0 +1,12 @@
+.acme-1-icon8 {
+  width: 146.4px;
+  position: relative;
+  height: 32px;
+  object-fit: cover;
+}
+ @media (max-width: 480px) {
+  .acme-1-icon8 {
+  margin-left: 330px;
+  }
+  
+}

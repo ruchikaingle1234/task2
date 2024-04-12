@@ -1,0 +1,13 @@
+.echo-1-icon9 {
+  width: 160px;
+  position: relative;
+  height: 28.1px;
+  object-fit: cover;
+}
+@media (max-width: 480px) {
+  .echo-1-icon9 {
+  margin-left: 330px;
+  }
+  
+}
+
